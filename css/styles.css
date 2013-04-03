@@ -1,0 +1,230 @@
+/* Jumbotrons
+-------------------------------------------------- */
+
+/* Base class
+------------------------- */
+.jumbotron {
+  position: relative;
+  padding: 40px 0;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+     -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+	background-image: linear-gradient(left bottom, rgb(41,124,184) 29%, rgb(164,216,255) 65%);
+	background-image: -o-linear-gradient(left bottom, rgb(41,124,184) 29%, rgb(164,216,255) 65%);
+	background-image: -moz-linear-gradient(left bottom, rgb(41,124,184) 29%, rgb(164,216,255) 65%);
+	background-image: -webkit-linear-gradient(left bottom, rgb(41,124,184) 29%, rgb(164,216,255) 65%);
+	background-image: -ms-linear-gradient(left bottom, rgb(41,124,184) 29%, rgb(164,216,255) 65%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		right top,
+		color-stop(0.29, rgb(41,124,184)),
+		color-stop(0.65, rgb(164,216,255))
+	);
+}
+.jumbotron h1 {
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+.jumbotron p {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.25;
+  margin-bottom: 30px;
+}
+
+/* Link styles (used on .masthead-links as well) */
+.jumbotron a {
+  color: #fff;
+  color: rgba(255,255,255,.5);
+  -webkit-transition: all .2s ease-in-out;
+     -moz-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+.jumbotron a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255,255,255,.25);
+}
+
+/* Masthead (docs home)
+------------------------- */
+.masthead {
+  padding: 70px 0 80px;
+  margin-bottom: 0;
+  color: #fff;
+}
+.masthead h1 {
+  font-size: 120px;
+  line-height: 1;
+  letter-spacing: -2px;
+}
+.masthead p {
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 1.25;
+}
+
+/* Textual links in masthead */
+.masthead-links {
+  margin: 0;
+  list-style: none;
+}
+.masthead-links li {
+  display: inline;
+  padding: 0 10px;
+  color: rgba(255,255,255,.25);
+}
+
+/* Marketing section of Overview
+-------------------------------------------------- */
+
+.marketing {
+  color: #5a5a5a;
+}
+.marketing h1 {
+  text-align: center;
+  margin: 60px 0 10px;
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.marketing h2 {
+  font-weight: 200;
+  margin-bottom: 5px;
+}
+.marketing p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.marketing .marketing-byline {
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.25;
+  color: #999;
+}
+.marketing-img {
+  display: block;
+  margin: 0 auto 30px;
+  max-height: 145px;
+}
+
+.marketing .notes {
+	margin-top:70px;
+	border-top:6px solid black;
+	padding-top:25px;
+}
+
+/* TEACHING */
+
+.teach ul {
+	list-style-type: none;
+	font-size: 16px;
+	margin-left: 0;
+}
+
+.teach h4 {
+	margin:25px 0 15px 15px;
+}
+
+/* CUSTOM TABLE COLORS */
+.workshops .span12 {
+	overflow-x:scroll;
+}
+
+.workshops table {
+	margin:60px 0 0 0;
+}
+
+.workshops table td {
+	min-width:65px;
+}
+
+.workshops table td:nth-child(odd) {
+	border-right:1px solid #ccc;
+}
+
+.workshops table td:nth-child(even) {
+	border-right:1px dotted #ececec;
+}
+
+.workshops table td a {
+	font-weight:normal;
+	color: #333;
+	display:block;
+	height:100%;
+}
+
+.workshops table td a:hover {
+	font-weight:normal;
+	color: #999;
+}
+
+.workshops table tbody tr > td {
+	font-weight:bold;
+	min-width: 115px;
+}
+	
+.workshops table tbody tr > td.all {
+	background-color:#efefef;
+}
+
+.workshops table tbody tr > td.none {
+	background-color:#999;
+	color: #efefef;
+}
+
+.table tbody tr > td.usability {
+  background-color: #f2dede;
+}
+
+.table tbody tr > td.html {
+  background-color: #f5dbcf;
+}
+
+
+.table tbody tr > td.css {
+  background-color: #fcf8e3;
+}
+
+.table tbody tr > td.js {
+  background-color: #d0e9c6;
+}
+
+.table tbody tr > td.design {
+  background-color: #d9edf7;
+}
+
+.table tbody tr > td.editorial {
+  background-color: #daeef8;
+}
+
+.table tbody tr > td.project {
+  background-color: #dcdaf8;
+}
+
+.table tbody tr > td.other {
+  background-color: #333;
+  color: #ccc;
+}
+
+
+.table-hover tbody tr.error:hover > td {
+  background-color: #ebcccc;
+}
+
+.table-hover tbody tr.warning:hover > td {
+  background-color: #faf2cc;
+}
+
+.table-hover tbody tr.info:hover > td {
+  background-color: #c4e3f3;
+}
+
