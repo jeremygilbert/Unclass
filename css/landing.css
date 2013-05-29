@@ -1,0 +1,112 @@
+.navbar .container { margin-left: 5%; }
+
+.row { margin: 0 auto; padding: 2% 5% 2% 5%; }
+
+#brand {
+  font-family: 'Jubilat';
+  font-style: italic;
+  font-weight: 900;
+}
+
+.thumb {
+  margin-bottom: 5%;
+}
+
+#thing1 .thumb {
+  background: url('/img/play_parallax.png');
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 1000px;
+}
+
+.hed {
+  font-family: 'Jubilat';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+
+.dek {
+  font-family: 'Proxima Nova';
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  margin-bottom: 2%;
+}
+
+.byline {
+  margin-bottom: 10%;
+  font-family: 'Proxima Nova';
+  font-weight: 300;
+  font-size: 1em;
+  font-style: italic;
+  line-height: 1.3em;
+}
+
+.byline ul {
+  margin: 0;
+  column-count: 2;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-gap: 20px;
+  -webkit-column-gap: 20px;
+  -moz-column-gap: 20px;
+}
+
+#thing2 .thumb {
+  background: url('/img/play_parallax.png');
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 1000px;
+}
+
+#thing3 .thumb {
+  background: url('/img/play_parallax.png');
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 1000px;
+}
+
+#thing4 .thumb {
+  background: url('/img/play_parallax.png');
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 1000px;
+}
+
+#thing5 .thumb {
+  background: url('/img/play_parallax.png');
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 1000px;
+}
+
+#thing6 .thumb {
+  background: url('/img/play_parallax.png');
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 1000px;
+}
+
+#thing7 .thumb {
+  background: url('/img/play_parallax.png');
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 1000px;
+}
+
+#thing8 .thumb {
+  background: url('/img/play_parallax.png');
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  border-radius: 1000px;
+}
