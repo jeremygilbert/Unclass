@@ -1,0 +1,28 @@
+body {
+	font-size: 18pt;
+	color: gray;
+}
+h1 {
+	color: orange;
+	font-weight: normal;
+	font-style: italic;
+}
+a {
+	color: yellow;
+	font-weight: bold;
+}
+ul li {
+	font-size: 14pt;
+}
+ul li strong {
+	color: blue;
+}
+blockquote em {
+	font-size: 14pt;
+	color: #ccc;
+}
+h2.explainer {
+	font-size: 24pt;
+	font-weight: normal;
+	color: red;
+}

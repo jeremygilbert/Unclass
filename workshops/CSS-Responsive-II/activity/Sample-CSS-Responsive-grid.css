@@ -1,0 +1,50 @@
+/*	Grid Styles 
+	Developed from a fixed grid of 960px total with twelve 60px columns and eleven 20px gutters 
+*/
+
+/* Must   d all content */
+.container {
+	width: 92%;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.span1,.span2,.span3,.span4,.span5,.span6,.span7,.span8,.span9,.span10,.span11 { margin-right: 2.083333333333%; float: left; padding: 0; position: relative; } /* Gutters */
+
+/* Column widths */
+.span1, .span1 .padding { width: 6.25%; } 
+.span2 { width: 14.583333333333%; }
+.span3 { width: 22.916666666667%; }
+.span4 { width: 31.25%; }
+.span5 { width: 39.583333333333%; }
+.span6 { width: 47.916666666667%; }
+.span7 { width: 56.25%; }
+.span8 { width: 64.583333333333%; }
+.span9 { width: 72.916666666667%; }
+.span10 { width: 81.25%; }
+.span11 { width: 89.583333333333%; }
+.span12 { width: 97.916666666667%; }
+
+/* Column padding */
+.span12 .padding { padding: 2.083333333333%; }
+.span11 .padding { padding: 2.325581395349%; }
+.span10 .padding { padding: 2.564102564103%; }
+.span9  .padding { padding: 2.857142857143%; }
+.span8  .padding { padding: 3.225806451613%; }
+.span7  .padding { padding: 3.703703703704%; }
+.span6  .padding { padding: 4.347826086957%; }
+.span5  .padding { padding: 5.263157894737%; }
+.span4  .padding { padding: 6.666666666667%; }
+.span3  .padding { padding: 9.090909090909%; }
+.span2  .padding { padding: 14.285714285714%; }
+.span1  .padding { padding: 33.333333333333%; }
+
+.row { clear: left; overflow: auto; margin: 2.083333333333% 0; }
+.last,.span12 { margin-right: 0; }
+.padding { padding: 7.142857142857%; width: 85.714285714286%; }
+
+@media all and (max-width: 768px) {
+	.span1,.span2,.span3,.span4,.span5,.span6,.span7,.span8,.span9,.span10,.span11 { width: 100%; float: none; margin-bottom: 2.083333333333%; } /* Turns off float */
+	.mobile { display: none; }
+}
+

@@ -1,0 +1,28 @@
+Revisit Media Queries - What do you get
+  - Browser sizes/dimensions
+    - Laptop (Full): 1366 x 768 
+    - Tablet (Landscape): 1024 x 768
+    - Tablet (Portrait): 768 x 1024
+    - Mobile (Landscape): 480 x 320
+    - Mobile (Portrait): 320 x 480
+  - Queries
+    - @media screen and (min-width: 769px)
+    - @media all and (max-width: 1024px)
+    - @media handheld and (min-width: 481px)
+    - @media all and (min-width: 321px) and (max-width: 1024px)
+
+Flexible Grids and Images
+  - Why use grids (white space)
+    - Columns 
+    - Units
+  - Fixed grid 
+  - Flexible grid
+    - Width
+    - Margin
+    - Padding
+  - Media Queries
+    - Show hide elements: Display
+
+Images - 
+  - Max-Width
+  - Width

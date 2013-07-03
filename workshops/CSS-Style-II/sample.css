@@ -1,0 +1,35 @@
+body {
+    background-color: #ccc;
+    color: #333;
+    font-family: Arial, Verdana, sans-serif;
+}
+a {
+    font-weight: bold;
+    color: #cecece;
+}
+a:visited {
+    color: #333;
+}
+a:hover {
+    color: black;
+}
+h1 {
+    color: yellow;
+    text-shadow: 1px 1px #999;
+}
+p { 
+    font-size: 11pt;
+    line-height: 15pt;
+}
+.type-orange {
+    color: red;
+}
+h3 {
+  font-style: italic;
+}
+ul li {
+  color: purple;
+}
+ol li {
+  color: blue;
+}

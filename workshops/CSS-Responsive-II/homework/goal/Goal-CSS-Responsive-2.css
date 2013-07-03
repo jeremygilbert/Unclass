@@ -1,0 +1,109 @@
+html {
+	font-size: 100%; /* ~16px */
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	font-family: Georgia,'Times News Roman',Times,serif;
+	font-size: 100%;
+	line-height: 1.5em; /* ~24px */
+	color: #ccc;
+	background: #999 url('skyline.png') repeat-x bottom center;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+header {
+	border-bottom: 1px solid rgba(255,255,255,.25);
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	padding-top: 2.5em; /* Was 40px */
+}
+hgroup, .container, footer {
+	margin: 1.25em auto; /* Was 20px */
+	overflow: auto;
+}
+h1 {
+	color: #893283;
+	font-weight: normal;
+	font-size: 2.85em; /* ~45.6px */
+	margin-bottom: 0;
+}
+h1,h2,h3,h4,h5,h6,.explainer {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+a {
+	color: #fe9566;
+	font-weight: bold;
+}
+a:hover {
+	color: #ec555e;
+}
+a:visited {
+	color:black;
+}
+article {
+	overflow: auto;
+	background: gray;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+article section {
+	margin: 0 1.25em 0 0; /* Was 20px */
+	float:left;
+}
+article section.explainer {
+	margin-right: 0;
+	background: rgba(81,16,46,.25);
+}
+article img {
+	float: left;
+	margin: 0 1.25em 0.625em 0; /* Were 20px and 10px */
+}
+ul {
+	padding: 0.625em; /* Was 10px */
+}
+ul li {
+	font-size: .85em;
+}
+ul li strong {
+	color: #ff745f;
+}
+blockquote em {
+	font-size: .75em; /* Was 12pt */
+	color: #ccc;
+}
+aside {
+	clear: both;
+	margin: 3.75em 0 0 0; /* Was 60px */
+	padding-top: 3.75em; /* Was 60px */
+	border-top: 1px white dotted;
+}
+aside h3 {
+	margin-top: 0;
+}
+h2 {
+	font-size: 1.5em; /* Was 24pt */
+	font-weight: normal;
+	color: #a62a42;
+}
+footer {
+	margin: 1.875em auto 7.5em auto; /* Were 30px and 120px */
+	text-align: center;
+}
+footer h5 {
+	font-weight: normal;
+	font-size: 1.0125em;
+}
+
+@media all and (max-width: 768px) {
+	body {
+		background-color: #fe9566;
+	}
+	article {
+		background: white;
+	}
+}

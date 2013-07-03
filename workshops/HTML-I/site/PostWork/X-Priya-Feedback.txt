@@ -1,0 +1,12 @@
+Priya,
+
+Nice work on the first assignment.
+
+- Line 8: IMG tags, in HTML5, do not need to a closing slash -- that's only in XHTML. And make sure you have an ALT tag. Also you cannot have a space between the SRC attribute and the equals sign or the quote mark.
+- Line 9: Avoid empty tags.
+- Lines 12, 14, 22 and 27: Avoid BR tags for spacing purposes.
+- Lines 18 & 19: Use STRONG tags to describe the character names.
+- Line 24: You cannot have a space between an HREF and the equals sign.
+- Lines 30-50: Watch the empty lines they do count towards the final document size.
+
+JG

@@ -1,0 +1,24 @@
+CSS Style I:
+
+- What is CSS?
+  - CSS Zen Garden
+  - What is a style?
+  - What is a stylesheet?
+  - What is the cascade?
+    - Specificity
+- What can you style?
+  - HTML tags (<p>)
+  - Classes (<p class="intro">)
+  - IDs (<p id="name">)
+- External vs Internal vs Inline
+  - External: Link tag
+  - Internal: Style tag
+  - Inline: Style attribute
+- Syntax & Nomenclature
+  - Selector --> Property --> Value
+- Styling text:
+  - Color
+  - Type-size
+  - Bold
+  - Italic
+- CSS Validator

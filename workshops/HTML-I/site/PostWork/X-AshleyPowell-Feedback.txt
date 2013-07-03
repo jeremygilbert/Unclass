@@ -1,0 +1,9 @@
+Ashley,
+
+You're off to a good start:
+
+- Line 7: IMG tags, in HTML5, do not need to a closing slash -- that's only in XHTML. And make sure you have an ALT tag.
+- Line 7-8: All your images and text should be in a block level element, like a P tag.
+- Use your tabs/spacing to indicate tags inside other tags -- like a UL that has LIs inside it.
+- Lines 15, 16 and 24: The B tag is obsolete, use the strong tag instead.
+- And remember to close your BODY and HTML.

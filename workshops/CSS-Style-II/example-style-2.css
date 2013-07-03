@@ -1,0 +1,52 @@
+body {
+	font-family: 'Merriweather Sans', Arial, Tahoma, sans-serif;
+	font-size: 18pt;
+	line-height: 1.5em;
+	color: gray;
+	background: pink url('http://medill.us/13SP-Unclass/workshops/css-style2/postwork/skyline.png') no-repeat bottom right;
+}
+h1, h2, h3 {
+	font-family: 'Scada', sans-serif;
+}
+h1 {
+	letter-spacing: 2px;
+	color: orange;
+	font-weight: normal;
+	font-style: italic;
+}
+a {
+	color: yellow;
+	font-weight: bold;
+}
+a:visited {
+	color: red;
+}
+a:hover {
+	color: green;
+}
+a:active {
+	color: brown;
+}
+ul li {
+	line-height: 1.15em;
+	font-size: 14pt;
+}
+ul li strong {
+	color: blue;
+}
+blockquote:hover {
+	background-color: blue;
+}
+blockquote em {
+	font-size: 14pt;
+	color: #ccc;
+}
+h2.explainer {
+	text-transform: lowercase;
+	font-size: 24pt;
+	font-weight: normal;
+	color: red;
+}
+footer h5 {
+	background-color: rgba(255,255,255,.5);
+}

@@ -1,0 +1,35 @@
+body {
+	background: gray;
+}
+div {
+	margin: 40px auto;
+}
+div.first, div.fifth {
+	width: 600px;
+	padding: 25px;
+}
+div.first {
+	background: red;
+	border: orange 4px dotted;
+	height: 300px;
+}
+div.second, div.third, div.fourth {
+	width: 200px;
+	height: 200px;
+	padding: 5px;
+	border: yellow solid 2px;
+}
+div.second {
+	background: purple;
+}
+div.third {
+	background: green;
+}
+div.fourth {
+	background: blue;
+}
+div.fifth {
+	background: yellow;
+	border: red 2px double;
+	height: 100px;
+}

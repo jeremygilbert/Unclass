@@ -1,0 +1,119 @@
+/*	TYPE & COLOR OPTION No. 4
+
+/*	==================================
+	TOSS THESE STYLES!
+	SPECIFIC TO THIS SAMPLE PAGE ONLY */
+	h2,h3,h4 {
+		font-weight: bold;
+	}
+	section {
+		margin: 25px 0 60px;
+	}
+	.typecolor {
+		float: left;
+	}
+	.type {
+		float: left;
+		margin: 25px 40px 30px 0;
+		width: 225px;
+	}
+	.type h4 a {
+		color: #333;
+	}
+	.type h4 span {
+		font-weight: normal;
+		color: #999;
+		font-size: .75em;
+	}
+	.type h5 {
+		color: #333;
+	}
+	ul.colors {
+		margin: 0;
+		padding: 0;
+		overflow: auto;
+	}
+	ul.colors li {
+		list-style-type: none;
+		padding: 0 0 85px 0;
+		width: 120px;
+		margin: 0 15px 35px 0;
+		float: left;
+		letter-spacing: .125em;
+		font-size: .95em;
+	}
+	ul.colors li span {
+		position: relative;
+		top: 0;
+		background: white;
+		width: 100%;
+		display: block;
+	}
+	ul.colors li.light {
+		color: white;
+	}
+	ul.colors li.dark {
+		color: black;
+	}
+
+/*	==================================
+	TAKE THESE STYLES! 
+	BEGIN STRUCTURAL STYLES */
+body {
+	padding-top: 60px;
+}
+h1,.brand {
+	letter-spacing: .075em;
+}
+footer {
+	margin-top: 60px;
+	padding: 35px 25px 0 25px;
+	background-color: #ececec;
+	margin-bottom: -20px;
+}
+footer ul:first-child {
+	border-bottom: 1px dotted #fff;
+}
+footer ul, footer ul li {
+	margin: 0;
+	padding: 0;
+}
+/* MEDIA QUERY */
+@media (max-width: 979px) {
+	body {
+		padding-top: 0;
+	}
+	footer {
+		margin: 60px -20px -20px -20px;
+	}
+}
+
+
+/*	==================================
+	OPTION No. 4 - SPECIFIC STYLES
+
+	/*	==================================
+		MUST USE THESE STYLES!
+		OPTION No. 4
+		BEGIN FONT SPECIFC STYLES */
+
+	body,input,button,select,textarea,.navbar-search .search-query,.serif {
+	  	font-family: "pt-sans",sans-serif;
+	}
+	h1,.brand,.slab-serif {
+		font-family: "cubano",sans-serif;
+	}
+	h2,h3,h4,h5,h6,li,.sans-serif {
+	  	font-family: "pt-sans",sans-serif;
+	}
+
+	/*	==================================
+		MUST USE THESE STYLES!
+		OPTION No. 4
+		BEGIN COLOR SPECIFC STYLES */
+	
+	.grayblue {background:rgb(25,76,101);}
+	.lightgrayblue {background:rgb(119,158,177);}
+	.black {background:rgb(0,0,0);}
+	.mustard {background:rgb(152,148,38);}
+	.slategray {background:rgb(177,177,171);}

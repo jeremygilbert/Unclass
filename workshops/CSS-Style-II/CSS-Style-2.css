@@ -1,0 +1,44 @@
+body {
+	font-family: Georgia,'Times News Roman',Times,serif;
+	font-size: 18pt;
+	line-height: 1.5em;
+	color: #ccc;
+	background: #999 url('skyline.png') repeat-x bottom center;
+}
+h1 {
+	color: orange;
+	font-weight: normal;
+	font-style: italic;
+	letter-spacing: -.05em;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Helvetica Neue',Helvetica,Verdana,sans-serif;
+}
+a {
+	color: yellow;
+	font-weight: bold;
+}
+a:hover {
+	color: orange;
+}
+a:visited {
+	color:black;
+}
+ul {
+	background: yellow;
+}
+ul li {
+	font-size: 14pt;
+}
+ul li strong {
+	color: blue;
+}
+blockquote em {
+	font-size: 14pt;
+	color: #ccc;
+}
+h2.explainer {
+	font-size: 24pt;
+	font-weight: normal;
+	color: red;
+}

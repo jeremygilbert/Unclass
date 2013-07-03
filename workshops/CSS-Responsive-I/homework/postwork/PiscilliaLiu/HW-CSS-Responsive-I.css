@@ -1,0 +1,123 @@
+body {
+	font-family: Georgia,'Times News Roman',Times,serif;
+	font-size: 0.875em;
+	line-height: 1.5em;
+	color: #ccc;
+	background: #999 url('skyline.png') repeat-x bottom center;
+	margin: 0;
+	padding: 0;
+}
+header {
+	width: 100%;
+	border-bottom: 1px solid rgba(255,255,255,.25);
+	margin: 0;
+	padding: 0;
+}
+hgroup, .container, footer {
+	width: 93.75%;
+	margin: 1.953125% auto;
+	overflow: auto;
+}
+.container {
+	padding-top: 3.90625%;
+}
+h1 {
+	color: #893283;
+	font-weight: normal;
+	font-size: 2.85em;
+	margin-bottom: 0;
+}
+h1,h2,h3,h4,h5,h6,.explainer {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+a {
+	color: #fe9566;
+	font-weight: bold;
+}
+a:hover {
+	color: #ec555e;
+}
+a:visited {
+	color:black;
+}
+article {
+	overflow: auto;
+	background: gray;
+	border-bottom: 1px solid rgba(255,255,255,.5);
+}
+article section {
+	width: 29.78515625%;
+	margin: 0 1.953125% 0 0;
+	float:left;
+}
+article section.explainer {
+	width: 26.3671875%;
+	margin-right: 0;
+	background: rgba(81,16,46,.25);
+	padding: 0 1.953125% 1.953125% 1.953125%;
+}
+article img {
+	float: left;
+	margin: 0 1.953125% .9765625% 0;
+}
+ul {
+	padding: .9765625%;
+}
+ul li {
+	font-size: .85em;
+}
+ul li strong {
+	color: #ff745f;
+}
+blockquote em {
+	font-size: .75em;
+	color: #ccc;
+}
+aside {
+	clear: both;
+	margin: 5.859375% 0 0 0;
+	padding-top: 5.859375%;
+	border-top: 1px white dotted;
+}
+aside h3 {
+	margin-top: 0;
+}
+h2 {
+	font-size: 1.5em;
+	font-weight: normal;
+	color: #a62a42;
+}
+footer {
+	margin: 2.9296875% auto 11.953125% auto;
+	text-align: center;
+}
+footer h5 {
+	font-weight: normal;
+	font-size: 1.0125em;
+}
+
+@media all and (max-width: 768px) {
+	body{
+
+		font-family: verdana, sans-serif;
+		background: white;
+	}
+
+	hgroup, .container, footer {
+	width: 75.859375%;
+	margin: 1.953125% auto;
+	overflow: auto;
+}
+
+}
+
+@media all and (max-width: 480px) {
+	body{
+
+		font-family: Times, serif;
+		font-size: .75em;
+		background: black;
+	}
+
+
+}

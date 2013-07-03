@@ -1,0 +1,76 @@
+body {
+	background: gray;
+}
+header {
+	background: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+	overflow: auto;
+}
+header ul {
+	padding: 0;
+	margin: 0;
+}
+header ul li {
+	float: left;
+	margin-right: 20px;
+	padding: 10px 20px;
+}
+header a {
+	font-family: 'helvetica neue light', helvetica, verdana, arial, sans-serif;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+header li:hover, header li:active {
+	background: red;
+}
+div.container {
+	overflow: auto;
+	width: 675px;
+	background: rgba(255,255,255,.5);
+	padding: 20px;
+	position: relative;
+	bottom: 140px;
+	right: 40px;
+}
+div.first, div.fifth {
+	width: 600px;
+	padding: 25px;
+	clear: left;
+	margin: 0 auto;
+}
+div.first {
+	background: red;
+	border: orange 4px dotted;
+	height: 300px;
+}
+div.second, div.third, div.fourth {
+	width: 200px;
+	height: 200px;
+	padding: 5px;
+	border: yellow solid 2px;
+	float: left;
+	margin: 20px 16px 20px 0;
+}
+div.second {
+	background: purple;
+}
+div.third {
+	background: green;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+div.fourth {
+	background: blue;
+	margin-right: 0;
+}
+div.fifth {
+	background: yellow;
+	border: red 2px double;
+	height: 100px;
+}
